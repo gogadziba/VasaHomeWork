@@ -1,11 +1,10 @@
-import java.util.Scanner;
-
 /**
  * 4.5. Вводим 2 числа. Если первое число больше второго, то вывести на экран разницу чисел.
  Если второе больше, то выводим сумму.
+*/
 
- * Created by Vasssa on 18.11.2015.
- */
+import java.util.Scanner;
+
 public class Task_4_5 {
     public static void main(String[] args) {
         Scanner scanner1 = new Scanner(System.in);

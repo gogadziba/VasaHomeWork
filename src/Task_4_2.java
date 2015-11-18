@@ -1,9 +1,11 @@
+/**
+ *
+ * 4.2. ѕользователь вводит три числа с консоли, нужно вывести на консоль наибольшее, наименьшее
+ */
+
 import javax.sound.midi.Soundbank;
 import java.util.Scanner;
 
-/**
- * Created by Vasssa on 18.11.2015.
- */
 public class Task_4_2 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
