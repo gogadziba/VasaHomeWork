@@ -12,7 +12,7 @@ public class Task_4_6 {
         int number2 = scanner.nextInt();
         int result = number1 + number2;
 
-        if (result>=11&& result<=19)
+        if (result >= 11 && result <= 19)
             System.out.println(result);
         else {
             System.out.println("Wrong way!");
