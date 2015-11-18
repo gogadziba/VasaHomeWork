@@ -7,7 +7,17 @@ public class Task_4_1 {
 
         int time = scanner.nextInt();
 
-        if(time == 9){
+        if (time>=9 && time<=18){
+            System.out.println("I'm still at work");
+        }else {
+            System.out.println("I'm at home");
+        }
+
+
+    }
+}
+
+ /**      if(time == 9){
             System.out.println("I'm still at work ");
         }
         else if (time == 10) {
@@ -38,7 +48,4 @@ public class Task_4_1 {
             System.out.println("I'm still at work ");
         }
         else System.out.println("I'm not at work");
-    }
-}
-
-
+  */
