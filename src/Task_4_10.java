@@ -15,10 +15,11 @@ public class Task_4_10 {
         double c = scanner.nextInt();
         double d = Math.pow(a, b);
 
-        if (d == c)
+        if (d == c) // Переделать!!! Можно ввести 0 и будет работать.
             System.out.println("Correct rectangular triangle");
         else {
             System.out.println("Incorrect triangle");
         }
     }
 }
+
